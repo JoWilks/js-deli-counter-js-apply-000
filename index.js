@@ -1,5 +1,6 @@
 var katzDeli = [];
 
+<<<<<<< HEAD
 function takeANumber(line, name) {
   line.push(name)       
   var posInLine = line.length     
@@ -34,3 +35,16 @@ function currentLine(line) {
 }
 
 
+=======
+function takeANumber(katzDeliLine, name) {
+  katzDeliLine.push(name)       //add name to queue
+  var posInLine = katzDeliLine.length     //what there number in queue will be once added
+  return `Welcome, ${name}. You are number ${posInLine} in line.`
+}
+
+function nowServing() {
+  if(katzDeliLine == []) {
+    ""
+  }
+}
+>>>>>>> 2df4a765ed2b64a440a691dbd34538306f10f554
